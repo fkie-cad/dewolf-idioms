@@ -1,0 +1,192 @@
+[
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_2"
+    ],
+    "text": "idiv reg_2"
+   }
+  ],
+  "cluster": "420"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   }
+  ],
+  "cluster": "425"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "pop",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "pop reg_0"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   }
+  ],
+  "cluster": "426"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   }
+  ],
+  "cluster": "421"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "and reg_1, const_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "422"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "xor reg_0, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   }
+  ],
+  "cluster": "428"
+ }
+]

@@ -1,0 +1,121 @@
+[
+    # cluster_1
+    {
+        "sequence": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "sal reg_0, const_1"
+        ],
+        "operand": "reg_0",
+        "constant": "-2**const_1"
+    },
+    # cluster_2
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "sal reg_1, const_0",
+            "sub reg_0, reg_1",
+            "mov reg_1, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "1 - 2**const_0"
+    },
+    # cluster_3 TODO cant be differentiated between positive and negative
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "sal reg_0, const_0",
+            "add reg_0, reg_1"
+        ],
+        "operand": "reg_0",
+        "constant": "1 + 2**const_0"
+    },
+    # cluster_4
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "sal reg_0, const_0",
+            "sub reg_0, reg_1"
+        ],
+        "operand": "reg_0",
+        "constant": "-1 + 2**const_0"
+    },
+    # cluster_5
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "sal reg_1, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "+2 - 2**(const_0+1)"
+    },
+    # cluster_6
+    {
+        "sequence": [
+            "sal reg_1, const_0"
+        ],
+        "operand": "reg_0",
+        "constant": "2**const_0"
+    },
+    # cluster_7
+    {
+        "sequence": [
+            "neg reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "-1"
+    },
+    # cluster_8
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "sal reg_0, const_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "2 + 2 ** (const_0+1)"
+    },
+    # cluster_9 TODO
+    # cluster_10
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "6"
+    },
+    # cluster_11
+    {
+        "sequence": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "-2"
+    },
+    # cluster_12
+    {
+        "sequence": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1"
+        ],
+        "operand": "reg_0",
+        "constant": "-2"
+    },
+    # cluster_13
+    {
+        "sequence": [
+            "add reg_0, reg_0"
+        ],
+        "operand": "reg_0",
+        "constant": "2"
+    },
+]

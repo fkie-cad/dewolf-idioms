@@ -1,0 +1,7 @@
+pytest
+smda==1.5.19
+lief
+requests
+tqdm
+pyyaml
+icecream

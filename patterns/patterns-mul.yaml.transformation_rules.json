@@ -1,0 +1,1166 @@
+[
+    {
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, loc0, const_0"
+        ]
+    },
+    {
+        "constant": "const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, loc0, const_1"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, reg_1, const_0"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]"
+        ]
+    },
+    {
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]"
+        ]
+    },
+    {
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1]"
+        ]
+    },
+    {
+        "constant": "0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov loc0, const_0"
+        ]
+    },
+    {
+        "constant": "1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, loc0"
+        ]
+    },
+    {
+        "constant": "-1",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "2**const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "2**const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_2"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_1 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_2+reg_2*const_1]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * const_1 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_1+reg_2*const_1]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_1+reg_2*const_0]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_2+reg_2*const_0]"
+        ]
+    },
+    {
+        "constant": "-(const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "-1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, loc0",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "2 ** (const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, [reg_2*const_0]"
+        ]
+    },
+    {
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, [reg_2+reg_2]"
+        ]
+    },
+    {
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 +1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0"
+        ]
+    },
+    {
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2"
+        ]
+    },
+    {
+        "constant": "-2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1+reg_1]"
+        ]
+    },
+    {
+        "constant": "2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-2**const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "3",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "lea reg_0, [reg_2+reg_3]"
+        ]
+    },
+    {
+        "constant": "-2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "neg reg_0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0"
+        ]
+    },
+    {
+        "constant": "2 ** (const_0 + 1) + 2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "((2 ** const_0) + 1) * 2 ** const_2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0",
+            "shl reg_0, const_2"
+        ]
+    },
+    {
+        "constant": "((2 ** const_0) - 1) * 2 ** const_2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_2"
+        ]
+    },
+    {
+        "constant": "((2 ** const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "((2 ** const_0) - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "2 ** (const_0 + 1) - 2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "(2 ** const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "(2+1)*2",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "3 * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "mov reg_1, reg_0"
+        ]
+    },
+    {
+        "constant": "+2 - 2**(const_0+1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0) + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "2 + 2 ** (const_0+1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0+1)) + 2",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2+reg_2]"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0)) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0+1)) -2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0+1) - 2)",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "3 * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_2*const_0]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0) + 1) * 2 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0) + 1) * 2 ** (const_0) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0)) * (const_1 + 2) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_2*const_1]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0) + 1) * 2 ** (const_1) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_1",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "3 * 2 ** (const_0) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "-2 ** (const_0) - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "mov loc0, reg_0",
+            "neg loc0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) -2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "const_1 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, loc0",
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_1]"
+        ]
+    },
+    {
+        "constant": "(const_0 - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "(const_0 - 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "-2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-(const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "neg reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_1 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "lea reg_0, [reg_0+reg_0*const_1]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "lea reg_0, [reg_0+reg_0*const_0]"
+        ]
+    },
+    {
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0"
+        ]
+    },
+    {
+        "constant": "const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_1) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_1, [reg_1+reg_0*const_1]"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * (const_0) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_1, [reg_1+reg_0*const_0]"
+        ]
+    },
+    {
+        "constant": "(-const_0 + 1) * 2 ** const_1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_1"
+        ]
+    },
+    {
+        "constant": "2 * (-const_0 + 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "add reg_1, reg_1"
+        ]
+    },
+    {
+        "constant": "(-const_0 + 1) * 2 ** const_0",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** const_0 - 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0"
+        ]
+    },
+    {
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_0))",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_1))",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_1))",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_1"
+        ]
+    },
+    {
+        "constant": "-2 * (2 ** (const_0) - 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "add reg_1, reg_1"
+        ]
+    },
+    {
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_0))",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_0"
+        ]
+    },
+    {
+        "constant": "3 * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_0*const_0]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "(2 ** (const_0)) * (const_1 + 2) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_0*const_1]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "constant": "-1*(const_0-1)*(const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1*const_1]"
+        ]
+    },
+    {
+        "constant": "-1*(const_0-1)*(const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1*const_0]"
+        ]
+    },
+    {
+        "constant": "-1*(const_0-1)*2**(const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-1*(const_0-1)*2**(const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0 ) - 1) * 2 ** (const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0 ) - 1) * 2 ** (const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0 ) - 1) * (const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2*const_1]"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0 ) - 1) * (const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2*const_0]"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]"
+        ]
+    },
+    {
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]"
+        ]
+    },
+    {
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1]"
+        ]
+    },
+    {
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, DWORD PTR num$[reg_1], const_0",
+            "mov DWORD PTR res$[reg_1], reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, DWORD PTR num$[reg_1]",
+            "mov DWORD PTR res$[reg_1], reg_0"
+        ]
+    },
+    {
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, DWORD PTR [reg_2+reg_2]"
+        ]
+    },
+    {
+        "constant": "-1 * (const_0 - 1)",
+        "operand": "reg_2",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "mov reg_2, reg_3",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "constant": "2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, DWORD PTR num$[reg_1]",
+            "shl reg_0, const_0",
+            "mov DWORD PTR res$[reg_1], reg_0"
+        ]
+    },
+    {
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_1, reg_0"
+        ]
+    },
+    {
+        "constant": "(-1 * (const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "1 - 2 ** const_0",
+        "operand": "reg_2",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "mov reg_2, reg_1",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "constant": "1 - 2 ** const_0",
+        "operand": "reg_2",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "mov reg_2, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "constant": "-1 * (const_0 + 1) + 2",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "lea reg_2, [reg_1*const_0]",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "constant": "-1 * (const_0 + 1) +2",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "lea reg_2, [reg_3*const_0]",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) + 1) * 2 ** const_2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_2"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) - 1) * 2 ** const_2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "shl reg_0, const_2"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-(2 ** (const_0) - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "constant": "-1 * (2 ** (const_0)) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "mov reg_2, reg_1",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "constant": "2**const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]"
+        ]
+    }
+]

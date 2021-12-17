@@ -1,0 +1,297 @@
+[
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "neg reg_1"
+   }
+  ],
+  "cluster": "230"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_2"
+    ],
+    "text": "idiv reg_2"
+   }
+  ],
+  "cluster": "232"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "pop",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "pop reg_0"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   }
+  ],
+  "cluster": "235"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_2"
+    ],
+    "text": "idiv reg_2"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "229"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "sar reg_0, const_0"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "238"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "sar reg_0, const_0"
+   }
+  ],
+  "cluster": "237"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "idiv reg_0"
+   }
+  ],
+  "cluster": "233"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "neg reg_1"
+   }
+  ],
+  "cluster": "231"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   }
+  ],
+  "cluster": "236"
+ }
+]

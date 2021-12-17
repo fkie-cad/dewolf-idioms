@@ -1,0 +1,945 @@
+[
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "and reg_2, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "loc1"
+    ],
+    "text": "add reg_3, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_3",
+     "reg_0",
+     "const_1"
+    ],
+    "text": "shrd reg_3, reg_0, const_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_1"
+    ],
+    "text": "sar reg_0, const_1"
+   }
+  ],
+  "cluster": "312"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cqo",
+    "operands": [],
+    "text": "cqo"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_3"
+    ],
+    "text": "idiv reg_3"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "315"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_2",
+     "const_1"
+    ],
+    "text": "and reg_2, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "loc1"
+    ],
+    "text": "add reg_3, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_3",
+     "reg_0",
+     "const_2"
+    ],
+    "text": "shrd reg_3, reg_0, const_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "sar reg_0, const_2"
+   }
+  ],
+  "cluster": "325"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "sar reg_0, const_0"
+   }
+  ],
+  "cluster": "322"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "and reg_2, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "loc1"
+    ],
+    "text": "add reg_3, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_3",
+     "reg_0",
+     "const_1"
+    ],
+    "text": "shrd reg_3, reg_0, const_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_1"
+    ],
+    "text": "sar reg_0, const_1"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_3"
+    ],
+    "text": "neg reg_3"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "adc reg_0, const_2"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "321"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   }
+  ],
+  "cluster": "311"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "neg reg_1"
+   }
+  ],
+  "cluster": "313"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_1"
+    ],
+    "text": "push const_1"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc0"
+    ],
+    "text": "push loc0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc1"
+    ],
+    "text": "push loc1"
+   },
+   {
+    "opcode": "call",
+    "operands": [
+     "__alldiv"
+    ],
+    "text": "call __alldiv"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc2",
+     "reg_2"
+    ],
+    "text": "mov loc2, reg_2"
+   }
+  ],
+  "cluster": "305"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_2",
+     "const_1"
+    ],
+    "text": "and reg_2, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "loc1"
+    ],
+    "text": "add reg_3, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_3",
+     "reg_0",
+     "const_2"
+    ],
+    "text": "shrd reg_3, reg_0, const_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "sar reg_0, const_2"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_3"
+    ],
+    "text": "neg reg_3"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "const_3"
+    ],
+    "text": "adc reg_0, const_3"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "314"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "shr",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "shr reg_1, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "loc1"
+    ],
+    "text": "add reg_1, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_1",
+     "reg_0",
+     "const_1"
+    ],
+    "text": "shrd reg_1, reg_0, const_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_1"
+    ],
+    "text": "sar reg_0"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "neg reg_1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "adc reg_0, const_2"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "317"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cqo",
+    "operands": [],
+    "text": "cqo"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_3"
+    ],
+    "text": "idiv reg_3"
+   }
+  ],
+  "cluster": "310"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_0"
+    ],
+    "text": "xor reg_0, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "loc0"
+    ],
+    "text": "mov reg_1, loc0"
+   },
+   {
+    "opcode": "shr",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "shr reg_1, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "loc1"
+    ],
+    "text": "add reg_1, loc1"
+   },
+   {
+    "opcode": "adc",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "adc reg_0, loc0"
+   },
+   {
+    "opcode": "shrd",
+    "operands": [
+     "reg_1",
+     "reg_0",
+     "const_1"
+    ],
+    "text": "shrd reg_1, reg_0, const_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_1"
+    ],
+    "text": "sar reg_0"
+   }
+  ],
+  "cluster": "323"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_1"
+    ],
+    "text": "push const_1"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc0"
+    ],
+    "text": "push loc0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc1"
+    ],
+    "text": "push loc1"
+   },
+   {
+    "opcode": "call",
+    "operands": [
+     "__divdi3"
+    ],
+    "text": "call __divdi3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "add reg_1, const_3"
+   }
+  ],
+  "cluster": "307"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "idiv reg_1"
+   }
+  ],
+  "cluster": "309"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "mov reg_2, const_0"
+   },
+   {
+    "opcode": "cqo",
+    "operands": [],
+    "text": "cqo"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_2"
+    ],
+    "text": "idiv reg_2"
+   }
+  ],
+  "cluster": "308"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_1"
+    ],
+    "text": "push const_1"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc0"
+    ],
+    "text": "push loc0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "loc1"
+    ],
+    "text": "push loc1"
+   },
+   {
+    "opcode": "call",
+    "operands": [
+     "__divdi3"
+    ],
+    "text": "call __divdi3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "add reg_1, const_2"
+   }
+  ],
+  "cluster": "324"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "sar reg_0, const_0"
+   },
+   {
+    "opcode": "neg",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "neg reg_0"
+   }
+  ],
+  "cluster": "316"
+ }
+]

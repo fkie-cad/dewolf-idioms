@@ -1,0 +1,1826 @@
+[
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_30.json",
+            "data/mulu/clusters/Os/cluster_268.json",
+            "data/muls/clusters/O0/cluster_32.json",
+            "data/muls/clusters/Os/cluster_296.json"
+        ],
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_0.json",
+            "data/mulu/clusters/O1/cluster_33.json",
+            "data/mulu/clusters/O2/cluster_99.json",
+            "data/mulu/clusters/O3/cluster_178.json",
+            "data/mulu/clusters/Os/cluster_256.json",
+            "data/muls/clusters/O0/cluster_0.json",
+            "data/muls/clusters/O1/cluster_35.json",
+            "data/muls/clusters/O2/cluster_103.json",
+            "data/muls/clusters/O3/cluster_194.json",
+            "data/muls/clusters/Os/cluster_284.json"
+        ],
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, loc0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_1.json",
+            "data/muls/clusters/O0/cluster_1.json"
+        ],
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_32.json",
+            "data/mulu/clusters/O2/cluster_98.json",
+            "data/mulu/clusters/O3/cluster_177.json",
+            "data/mulu/clusters/Os/cluster_257.json",
+            "data/muls/clusters/O1/cluster_34.json",
+            "data/muls/clusters/O2/cluster_102.json",
+            "data/muls/clusters/O3/cluster_193.json",
+            "data/muls/clusters/Os/cluster_285.json"
+        ],
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "imul reg_0, reg_1, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_160.json",
+            "data/mulu/clusters/O3/cluster_239.json",
+            "data/muls/clusters/O2/cluster_171.json",
+            "data/muls/clusters/O3/cluster_262.json"
+        ],
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_69.json",
+            "data/mulu/clusters/O2/cluster_141.json",
+            "data/mulu/clusters/O3/cluster_220.json",
+            "data/muls/clusters/O1/cluster_73.json",
+            "data/muls/clusters/O2/cluster_153.json",
+            "data/muls/clusters/O3/cluster_244.json"
+        ],
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_95.json",
+            "data/mulu/clusters/O2/cluster_173.json",
+            "data/mulu/clusters/O3/cluster_252.json",
+            "data/muls/clusters/O1/cluster_99.json",
+            "data/muls/clusters/O2/cluster_189.json",
+            "data/muls/clusters/O3/cluster_280.json"
+        ],
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_71.json",
+            "data/mulu/clusters/O2/cluster_143.json",
+            "data/mulu/clusters/O3/cluster_222.json",
+            "data/muls/clusters/O1/cluster_75.json",
+            "data/muls/clusters/O2/cluster_155.json",
+            "data/muls/clusters/O3/cluster_246.json"
+        ],
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_85.json",
+            "data/mulu/clusters/O2/cluster_161.json",
+            "data/mulu/clusters/O3/cluster_240.json",
+            "data/mulu/clusters/Os/cluster_266.json",
+            "data/muls/clusters/O1/cluster_87.json",
+            "data/muls/clusters/O2/cluster_172.json",
+            "data/muls/clusters/O3/cluster_263.json",
+            "data/muls/clusters/Os/cluster_292.json"
+        ],
+        "constant": "const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_70.json",
+            "data/mulu/clusters/O2/cluster_142.json",
+            "data/mulu/clusters/O3/cluster_221.json",
+            "data/mulu/clusters/Os/cluster_263.json",
+            "data/muls/clusters/O1/cluster_74.json",
+            "data/muls/clusters/O2/cluster_154.json",
+            "data/muls/clusters/O3/cluster_245.json",
+            "data/muls/clusters/Os/cluster_289.json"
+        ],
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_96.json",
+            "data/mulu/clusters/O2/cluster_174.json",
+            "data/mulu/clusters/O3/cluster_253.json",
+            "data/mulu/clusters/Os/cluster_267.json",
+            "data/muls/clusters/O1/cluster_100.json",
+            "data/muls/clusters/O2/cluster_190.json",
+            "data/muls/clusters/O3/cluster_281.json",
+            "data/muls/clusters/Os/cluster_295.json"
+        ],
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_7.json",
+            "data/mulu/clusters/O1/cluster_43.json",
+            "data/mulu/clusters/O2/cluster_110.json",
+            "data/mulu/clusters/O3/cluster_189.json",
+            "data/mulu/clusters/Os/cluster_262.json",
+            "data/muls/clusters/O0/cluster_9.json",
+            "data/muls/clusters/O1/cluster_47.json",
+            "data/muls/clusters/O2/cluster_119.json",
+            "data/muls/clusters/O3/cluster_210.json",
+            "data/muls/clusters/Os/cluster_288.json"
+        ],
+        "constant": "2**const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_116.json",
+            "data/mulu/clusters/O3/cluster_195.json",
+            "data/muls/clusters/O2/cluster_125.json",
+            "data/muls/clusters/O3/cluster_216.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_138.json",
+            "data/mulu/clusters/O3/cluster_217.json",
+            "data/muls/clusters/O2/cluster_150.json",
+            "data/muls/clusters/O3/cluster_241.json"
+        ],
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_159.json",
+            "data/mulu/clusters/O3/cluster_238.json",
+            "data/muls/clusters/O2/cluster_169.json",
+            "data/muls/clusters/O3/cluster_260.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_150.json",
+            "data/mulu/clusters/O3/cluster_229.json",
+            "data/muls/clusters/O2/cluster_162.json",
+            "data/muls/clusters/O3/cluster_253.json"
+        ],
+        "constant": "(const_0 + 1) -2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_46.json",
+            "data/mulu/clusters/O2/cluster_113.json",
+            "data/mulu/clusters/O3/cluster_192.json",
+            "data/muls/clusters/O1/cluster_50.json",
+            "data/muls/clusters/O2/cluster_122.json",
+            "data/muls/clusters/O3/cluster_213.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_64.json",
+            "data/mulu/clusters/O2/cluster_135.json",
+            "data/mulu/clusters/O3/cluster_214.json",
+            "data/muls/clusters/O1/cluster_68.json",
+            "data/muls/clusters/O2/cluster_147.json",
+            "data/muls/clusters/O3/cluster_238.json"
+        ],
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_82.json",
+            "data/mulu/clusters/O2/cluster_156.json",
+            "data/mulu/clusters/O3/cluster_235.json",
+            "data/muls/clusters/O1/cluster_84.json",
+            "data/muls/clusters/O2/cluster_166.json",
+            "data/muls/clusters/O3/cluster_257.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1+reg_1*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_48.json",
+            "data/mulu/clusters/O2/cluster_115.json",
+            "data/mulu/clusters/O3/cluster_194.json",
+            "data/muls/clusters/O1/cluster_52.json",
+            "data/muls/clusters/O2/cluster_124.json",
+            "data/muls/clusters/O3/cluster_215.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_59.json",
+            "data/mulu/clusters/O2/cluster_130.json",
+            "data/mulu/clusters/O3/cluster_209.json",
+            "data/muls/clusters/O1/cluster_62.json",
+            "data/muls/clusters/O2/cluster_140.json",
+            "data/muls/clusters/O3/cluster_231.json"
+        ],
+        "constant": "-(const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "neg reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_66.json",
+            "data/mulu/clusters/O2/cluster_137.json",
+            "data/mulu/clusters/O3/cluster_216.json",
+            "data/muls/clusters/O1/cluster_70.json",
+            "data/muls/clusters/O2/cluster_149.json",
+            "data/muls/clusters/O3/cluster_240.json"
+        ],
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_68.json",
+            "data/mulu/clusters/O2/cluster_140.json",
+            "data/mulu/clusters/O3/cluster_219.json",
+            "data/muls/clusters/O1/cluster_72.json",
+            "data/muls/clusters/O2/cluster_152.json",
+            "data/muls/clusters/O3/cluster_243.json"
+        ],
+        "constant": "(const_0 + 1) * (const_1 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "lea reg_0, [reg_0+reg_0*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_84.json",
+            "data/mulu/clusters/O2/cluster_158.json",
+            "data/mulu/clusters/O3/cluster_237.json",
+            "data/muls/clusters/O1/cluster_86.json",
+            "data/muls/clusters/O2/cluster_168.json",
+            "data/muls/clusters/O3/cluster_259.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_87.json",
+            "data/mulu/clusters/O2/cluster_163.json",
+            "data/mulu/clusters/O3/cluster_242.json",
+            "data/muls/clusters/O1/cluster_89.json",
+            "data/muls/clusters/O2/cluster_174.json",
+            "data/muls/clusters/O3/cluster_265.json"
+        ],
+        "constant": "(const_0 + 1) * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_0+reg_0*const_0]",
+            "lea reg_0, [reg_0+reg_0*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_56.json",
+            "data/mulu/clusters/O2/cluster_127.json",
+            "data/mulu/clusters/O3/cluster_206.json",
+            "data/muls/clusters/O1/cluster_58.json",
+            "data/muls/clusters/O2/cluster_135.json",
+            "data/muls/clusters/O3/cluster_226.json"
+        ],
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_75.json",
+            "data/mulu/clusters/O2/cluster_148.json",
+            "data/mulu/clusters/O3/cluster_227.json",
+            "data/muls/clusters/O1/cluster_79.json",
+            "data/muls/clusters/O2/cluster_160.json",
+            "data/muls/clusters/O3/cluster_251.json"
+        ],
+        "constant": "const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_2"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_76.json",
+            "data/mulu/clusters/O2/cluster_149.json",
+            "data/mulu/clusters/O3/cluster_228.json",
+            "data/muls/clusters/O1/cluster_80.json",
+            "data/muls/clusters/O2/cluster_161.json",
+            "data/muls/clusters/O3/cluster_252.json"
+        ],
+        "constant": "const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_47.json",
+            "data/mulu/clusters/O2/cluster_114.json",
+            "data/mulu/clusters/O3/cluster_193.json",
+            "data/muls/clusters/O1/cluster_51.json",
+            "data/muls/clusters/O2/cluster_123.json",
+            "data/muls/clusters/O3/cluster_214.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_58.json",
+            "data/mulu/clusters/O2/cluster_129.json",
+            "data/mulu/clusters/O3/cluster_208.json",
+            "data/muls/clusters/O1/cluster_61.json",
+            "data/muls/clusters/O2/cluster_139.json",
+            "data/muls/clusters/O3/cluster_230.json"
+        ],
+        "constant": "-(const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "neg reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_65.json",
+            "data/mulu/clusters/O2/cluster_136.json",
+            "data/mulu/clusters/O3/cluster_215.json",
+            "data/muls/clusters/O1/cluster_69.json",
+            "data/muls/clusters/O2/cluster_148.json",
+            "data/muls/clusters/O3/cluster_239.json"
+        ],
+        "constant": "(const_0 + 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_67.json",
+            "data/mulu/clusters/O2/cluster_139.json",
+            "data/mulu/clusters/O3/cluster_218.json",
+            "data/muls/clusters/O1/cluster_71.json",
+            "data/muls/clusters/O2/cluster_151.json",
+            "data/muls/clusters/O3/cluster_242.json"
+        ],
+        "constant": "(const_0 + 1) * (const_1 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_2+reg_2*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_73.json",
+            "data/mulu/clusters/O2/cluster_146.json",
+            "data/mulu/clusters/O3/cluster_225.json",
+            "data/muls/clusters/O1/cluster_77.json",
+            "data/muls/clusters/O2/cluster_158.json",
+            "data/muls/clusters/O3/cluster_249.json"
+        ],
+        "constant": "(const_0 + 1) * const_1 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_1+reg_2*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_74.json",
+            "data/mulu/clusters/O2/cluster_147.json",
+            "data/mulu/clusters/O3/cluster_226.json",
+            "data/muls/clusters/O1/cluster_78.json",
+            "data/muls/clusters/O2/cluster_159.json",
+            "data/muls/clusters/O3/cluster_250.json"
+        ],
+        "constant": "(const_0 + 1) * (const_1) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_1, [reg_1+reg_0*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_80.json",
+            "data/mulu/clusters/O2/cluster_154.json",
+            "data/mulu/clusters/O3/cluster_233.json",
+            "data/muls/clusters/O1/cluster_82.json",
+            "data/muls/clusters/O2/cluster_164.json",
+            "data/muls/clusters/O3/cluster_255.json"
+        ],
+        "constant": "(const_0 + 1) * const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_1+reg_2*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_81.json",
+            "data/mulu/clusters/O2/cluster_155.json",
+            "data/mulu/clusters/O3/cluster_234.json",
+            "data/muls/clusters/O1/cluster_83.json",
+            "data/muls/clusters/O2/cluster_165.json",
+            "data/muls/clusters/O3/cluster_256.json"
+        ],
+        "constant": "(const_0 + 1) * (const_0) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_1, [reg_1+reg_0*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_83.json",
+            "data/mulu/clusters/O2/cluster_157.json",
+            "data/mulu/clusters/O3/cluster_236.json",
+            "data/muls/clusters/O1/cluster_85.json",
+            "data/muls/clusters/O2/cluster_167.json",
+            "data/muls/clusters/O3/cluster_258.json"
+        ],
+        "constant": "(const_0 + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_86.json",
+            "data/mulu/clusters/O2/cluster_162.json",
+            "data/mulu/clusters/O3/cluster_241.json",
+            "data/muls/clusters/O1/cluster_88.json",
+            "data/muls/clusters/O2/cluster_173.json",
+            "data/muls/clusters/O3/cluster_264.json"
+        ],
+        "constant": "(const_0 + 1) * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1+reg_1*const_0]",
+            "lea reg_0, [reg_2+reg_2*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_45.json",
+            "data/mulu/clusters/O2/cluster_112.json",
+            "data/mulu/clusters/O3/cluster_191.json",
+            "data/mulu/clusters/Os/cluster_261.json",
+            "data/muls/clusters/O1/cluster_49.json",
+            "data/muls/clusters/O2/cluster_121.json",
+            "data/muls/clusters/O3/cluster_212.json",
+            "data/muls/clusters/Os/cluster_287.json"
+        ],
+        "constant": "2**const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_97.json",
+            "data/mulu/clusters/O2/cluster_175.json",
+            "data/mulu/clusters/O3/cluster_254.json",
+            "data/muls/clusters/O1/cluster_101.json",
+            "data/muls/clusters/O2/cluster_191.json",
+            "data/muls/clusters/O3/cluster_282.json"
+        ],
+        "constant": "2",
+        "operand": "reg_0",
+        "pattern": [
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_144.json",
+            "data/mulu/clusters/O3/cluster_223.json",
+            "data/muls/clusters/O2/cluster_156.json",
+            "data/muls/clusters/O3/cluster_247.json"
+        ],
+        "constant": "const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_0+reg_0*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_44.json",
+            "data/mulu/clusters/O2/cluster_111.json",
+            "data/mulu/clusters/O3/cluster_190.json",
+            "data/mulu/clusters/Os/cluster_260.json",
+            "data/muls/clusters/O1/cluster_48.json",
+            "data/muls/clusters/O2/cluster_120.json",
+            "data/muls/clusters/O3/cluster_211.json",
+            "data/muls/clusters/Os/cluster_286.json"
+        ],
+        "constant": "2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_50.json",
+            "data/mulu/clusters/O2/cluster_118.json",
+            "data/mulu/clusters/O3/cluster_197.json",
+            "data/muls/clusters/O1/cluster_44.json",
+            "data/muls/clusters/O2/cluster_115.json",
+            "data/muls/clusters/O3/cluster_206.json"
+        ],
+        "constant": "-2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_57.json",
+            "data/mulu/clusters/O2/cluster_128.json",
+            "data/mulu/clusters/O3/cluster_207.json",
+            "data/muls/clusters/O1/cluster_60.json",
+            "data/muls/clusters/O2/cluster_138.json",
+            "data/muls/clusters/O3/cluster_229.json"
+        ],
+        "constant": "-const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, [reg_2*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_60.json",
+            "data/mulu/clusters/O2/cluster_131.json",
+            "data/mulu/clusters/O3/cluster_210.json",
+            "data/muls/clusters/O1/cluster_64.json",
+            "data/muls/clusters/O2/cluster_142.json",
+            "data/muls/clusters/O3/cluster_233.json"
+        ],
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, [reg_2+reg_2]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_61.json",
+            "data/mulu/clusters/O2/cluster_132.json",
+            "data/mulu/clusters/O3/cluster_211.json",
+            "data/muls/clusters/O1/cluster_65.json",
+            "data/muls/clusters/O2/cluster_143.json",
+            "data/muls/clusters/O3/cluster_234.json"
+        ],
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O1/cluster_63.json",
+            "data/muls/clusters/O2/cluster_141.json",
+            "data/muls/clusters/O3/cluster_232.json"
+        ],
+        "constant": "-2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "lea reg_1, DWORD PTR [reg_2+reg_2]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_121.json",
+            "data/mulu/clusters/O3/cluster_200.json",
+            "data/muls/clusters/O2/cluster_131.json",
+            "data/muls/clusters/O3/cluster_222.json"
+        ],
+        "constant": "2 ** const_0 +1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_166.json",
+            "data/mulu/clusters/O3/cluster_245.json",
+            "data/muls/clusters/O2/cluster_177.json",
+            "data/muls/clusters/O3/cluster_268.json"
+        ],
+        "constant": "2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_119.json",
+            "data/mulu/clusters/O3/cluster_198.json",
+            "data/muls/clusters/O2/cluster_128.json",
+            "data/muls/clusters/O3/cluster_219.json"
+        ],
+        "constant": "(const_0 - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, DWORD PTR [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_176.json",
+            "data/mulu/clusters/O3/cluster_255.json",
+            "data/muls/clusters/O2/cluster_192.json",
+            "data/muls/clusters/O3/cluster_283.json"
+        ],
+        "constant": "(const_0 - 1) * 2",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_137.json",
+            "data/muls/clusters/O3/cluster_228.json"
+        ],
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_39.json",
+            "data/mulu/clusters/O2/cluster_106.json",
+            "data/mulu/clusters/O3/cluster_185.json",
+            "data/muls/clusters/O1/cluster_41.json",
+            "data/muls/clusters/O2/cluster_111.json",
+            "data/muls/clusters/O3/cluster_202.json"
+        ],
+        "constant": "-1*(const_0-1)*(const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_40.json",
+            "data/mulu/clusters/O2/cluster_107.json",
+            "data/mulu/clusters/O3/cluster_186.json",
+            "data/muls/clusters/O1/cluster_42.json",
+            "data/muls/clusters/O2/cluster_112.json",
+            "data/muls/clusters/O3/cluster_203.json"
+        ],
+        "constant": "(-const_0 + 1) * 2 ** const_1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_55.json",
+            "data/mulu/clusters/O2/cluster_126.json",
+            "data/mulu/clusters/O3/cluster_205.json",
+            "data/muls/clusters/O1/cluster_57.json",
+            "data/muls/clusters/O2/cluster_134.json",
+            "data/muls/clusters/O3/cluster_225.json"
+        ],
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2"
+        ]
+    },
+    {
+        "clusters": [],
+        "constant": "-(const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_77.json",
+            "data/mulu/clusters/O2/cluster_151.json",
+            "data/mulu/clusters/O3/cluster_230.json",
+            "data/muls/clusters/O1/cluster_81.json",
+            "data/muls/clusters/O2/cluster_163.json",
+            "data/muls/clusters/O3/cluster_254.json"
+        ],
+        "constant": "-1*(const_0-1)*(const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_90.json",
+            "data/mulu/clusters/O2/cluster_168.json",
+            "data/mulu/clusters/O3/cluster_247.json",
+            "data/muls/clusters/O1/cluster_92.json",
+            "data/muls/clusters/O2/cluster_179.json",
+            "data/muls/clusters/O3/cluster_270.json"
+        ],
+        "constant": "-2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "lea reg_0, [reg_1+reg_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_91.json",
+            "data/mulu/clusters/O2/cluster_169.json",
+            "data/mulu/clusters/O3/cluster_248.json",
+            "data/muls/clusters/O1/cluster_93.json",
+            "data/muls/clusters/O2/cluster_180.json",
+            "data/muls/clusters/O3/cluster_271.json"
+        ],
+        "constant": "2 * (-const_0 + 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "add reg_1, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_93.json",
+            "data/mulu/clusters/O2/cluster_171.json",
+            "data/mulu/clusters/O3/cluster_250.json",
+            "data/muls/clusters/O1/cluster_95.json",
+            "data/muls/clusters/O2/cluster_183.json",
+            "data/muls/clusters/O3/cluster_274.json"
+        ],
+        "constant": "(-const_0 + 1) * 2 ** const_0",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_0"
+        ]
+    },
+    {
+        "clusters": [],
+        "constant": "(const_0 - 1) * 2 ** const_1",
+        "operand": "reg_1",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O1/cluster_59.json",
+            "data/muls/clusters/O2/cluster_136.json",
+            "data/muls/clusters/O3/cluster_227.json"
+        ],
+        "constant": "-1 * (const_0 - 1)",
+        "operand": "reg_2",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "mov reg_2, reg_3",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_14.json",
+            "data/muls/clusters/O0/cluster_16.json"
+        ],
+        "constant": "2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_9.json",
+            "data/muls/clusters/O0/cluster_8.json"
+        ],
+        "constant": "-2**const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_29.json",
+            "data/muls/clusters/O0/cluster_31.json"
+        ],
+        "constant": "3",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_3.json",
+            "data/mulu/clusters/O1/cluster_38.json",
+            "data/mulu/clusters/O2/cluster_103.json",
+            "data/mulu/clusters/O3/cluster_182.json",
+            "data/muls/clusters/O0/cluster_2.json",
+            "data/muls/clusters/O1/cluster_37.json",
+            "data/muls/clusters/O2/cluster_104.json",
+            "data/muls/clusters/O3/cluster_195.json"
+        ],
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_4.json",
+            "data/muls/clusters/O0/cluster_3.json"
+        ],
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_1, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_6.json",
+            "data/mulu/clusters/O1/cluster_41.json",
+            "data/mulu/clusters/O2/cluster_108.json",
+            "data/mulu/clusters/O3/cluster_187.json",
+            "data/muls/clusters/O0/cluster_7.json",
+            "data/muls/clusters/O1/cluster_43.json",
+            "data/muls/clusters/O2/cluster_114.json",
+            "data/muls/clusters/O3/cluster_205.json"
+        ],
+        "constant": "2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_37.json",
+            "data/muls/clusters/O1/cluster_36.json"
+        ],
+        "constant": "2 ** const_0 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "lea reg_0, [reg_2+reg_3]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_49.json",
+            "data/mulu/clusters/O2/cluster_117.json",
+            "data/mulu/clusters/O3/cluster_196.json",
+            "data/muls/clusters/O1/cluster_45.json",
+            "data/muls/clusters/O2/cluster_116.json",
+            "data/muls/clusters/O3/cluster_207.json"
+        ],
+        "constant": "-2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "neg reg_0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_79.json",
+            "data/mulu/clusters/O2/cluster_153.json",
+            "data/mulu/clusters/O3/cluster_232.json",
+            "data/muls/clusters/O1/cluster_39.json",
+            "data/muls/clusters/O2/cluster_108.json",
+            "data/muls/clusters/O3/cluster_199.json"
+        ],
+        "constant": "-(2 ** const_0 - 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_117.json",
+            "data/muls/clusters/O3/cluster_208.json"
+        ],
+        "constant": "-2 ** const_0 - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_104.json",
+            "data/mulu/clusters/O3/cluster_183.json",
+            "data/muls/clusters/O2/cluster_105.json",
+            "data/muls/clusters/O3/cluster_196.json"
+        ],
+        "constant": "2 ** (const_0 + 1) + 2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_105.json",
+            "data/mulu/clusters/O3/cluster_184.json",
+            "data/muls/clusters/O2/cluster_110.json",
+            "data/muls/clusters/O3/cluster_201.json"
+        ],
+        "constant": "((2 ** const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "add reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_120.json",
+            "data/mulu/clusters/O3/cluster_199.json",
+            "data/muls/clusters/O2/cluster_130.json",
+            "data/muls/clusters/O3/cluster_221.json"
+        ],
+        "constant": "((2 ** const_0) - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [],
+        "constant": "-1 * ((2 ** const_0) - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_167.json",
+            "data/mulu/clusters/O3/cluster_246.json",
+            "data/muls/clusters/O2/cluster_178.json",
+            "data/muls/clusters/O3/cluster_269.json"
+        ],
+        "constant": "2 ** (const_0 + 1) - 2",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_184.json",
+            "data/muls/clusters/O3/cluster_275.json"
+        ],
+        "constant": "-(2 ** (const_0) - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_113.json",
+            "data/muls/clusters/O3/cluster_204.json"
+        ],
+        "constant": "(-1 * (const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_181.json",
+            "data/muls/clusters/O3/cluster_272.json"
+        ],
+        "constant": "-2 * (const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_0, reg_1",
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_42.json",
+            "data/mulu/clusters/O2/cluster_109.json",
+            "data/mulu/clusters/O3/cluster_188.json",
+            "data/muls/clusters/O1/cluster_46.json",
+            "data/muls/clusters/O2/cluster_118.json",
+            "data/muls/clusters/O3/cluster_209.json"
+        ],
+        "constant": "-1*(const_0-1)*2**(const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_92.json",
+            "data/mulu/clusters/O2/cluster_170.json",
+            "data/mulu/clusters/O3/cluster_249.json",
+            "data/muls/clusters/O1/cluster_94.json",
+            "data/muls/clusters/O2/cluster_182.json",
+            "data/muls/clusters/O3/cluster_273.json"
+        ],
+        "constant": "-1*(const_0-1)*2**(const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "lea reg_0, [reg_1*const_0]",
+            "sub reg_2, reg_0",
+            "mov reg_0, reg_2",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_10.json",
+            "data/muls/clusters/O0/cluster_12.json"
+        ],
+        "constant": "(2 ** const_0 + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_11.json",
+            "data/muls/clusters/O0/cluster_11.json"
+        ],
+        "constant": "+2 - 2**(const_0+1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_12.json",
+            "data/muls/clusters/O0/cluster_4.json"
+        ],
+        "constant": "-(2 ** const_0 - 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "mov reg_1, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_15.json",
+            "data/muls/clusters/O0/cluster_17.json"
+        ],
+        "constant": "(2 ** (const_0) + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_16.json",
+            "data/muls/clusters/O0/cluster_18.json"
+        ],
+        "constant": "2 + 2 ** (const_0+1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_21.json",
+            "data/muls/clusters/O0/cluster_23.json"
+        ],
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_0))",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_23.json",
+            "data/muls/clusters/O0/cluster_25.json"
+        ],
+        "constant": "(2+1)*2",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_5.json",
+            "data/muls/clusters/O0/cluster_6.json"
+        ],
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_1))",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "sub reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_8.json",
+            "data/muls/clusters/O0/cluster_10.json"
+        ],
+        "constant": "3 * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_51.json",
+            "data/mulu/clusters/O2/cluster_122.json",
+            "data/mulu/clusters/O3/cluster_201.json",
+            "data/muls/clusters/O1/cluster_55.json",
+            "data/muls/clusters/O2/cluster_132.json",
+            "data/muls/clusters/O3/cluster_223.json"
+        ],
+        "constant": "-(2 ** (const_0 ) - 1) * (const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2*const_1]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_52.json",
+            "data/mulu/clusters/O2/cluster_123.json",
+            "data/mulu/clusters/O3/cluster_202.json",
+            "data/muls/clusters/O1/cluster_56.json",
+            "data/muls/clusters/O2/cluster_133.json",
+            "data/muls/clusters/O3/cluster_224.json"
+        ],
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_1))",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_53.json",
+            "data/mulu/clusters/O2/cluster_124.json",
+            "data/mulu/clusters/O3/cluster_203.json",
+            "data/muls/clusters/O1/cluster_53.json",
+            "data/muls/clusters/O2/cluster_126.json",
+            "data/muls/clusters/O3/cluster_217.json"
+        ],
+        "constant": "-(2 ** (const_0+1)) + 2",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2+reg_2]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_54.json",
+            "data/mulu/clusters/O2/cluster_125.json",
+            "data/mulu/clusters/O3/cluster_204.json",
+            "data/muls/clusters/O1/cluster_54.json",
+            "data/muls/clusters/O2/cluster_127.json",
+            "data/muls/clusters/O3/cluster_218.json"
+        ],
+        "constant": "-2 * (2 ** (const_0) - 1)",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "add reg_1, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_63.json",
+            "data/mulu/clusters/O2/cluster_134.json",
+            "data/mulu/clusters/O3/cluster_213.json",
+            "data/muls/clusters/O1/cluster_67.json",
+            "data/muls/clusters/O2/cluster_145.json",
+            "data/muls/clusters/O3/cluster_236.json"
+        ],
+        "constant": "-(2 ** (const_0 ) - 1) * (const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "lea reg_0, [reg_2*const_0]"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_78.json",
+            "data/mulu/clusters/O2/cluster_152.json",
+            "data/mulu/clusters/O3/cluster_231.json",
+            "data/muls/clusters/O1/cluster_38.json",
+            "data/muls/clusters/O2/cluster_107.json",
+            "data/muls/clusters/O3/cluster_198.json"
+        ],
+        "constant": "-(2 ** (const_0)) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_89.json",
+            "data/mulu/clusters/O2/cluster_165.json",
+            "data/mulu/clusters/O3/cluster_244.json",
+            "data/muls/clusters/O1/cluster_91.json",
+            "data/muls/clusters/O2/cluster_176.json",
+            "data/muls/clusters/O3/cluster_267.json"
+        ],
+        "constant": "-((2 ** (const_0) - 1) * 2 ** (const_0))",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "shl reg_1, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_94.json",
+            "data/muls/clusters/O1/cluster_40.json"
+        ],
+        "constant": "1 - 2 ** const_0",
+        "operand": "reg_2",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "mov reg_2, reg_1",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O2/cluster_172.json",
+            "data/mulu/clusters/O3/cluster_251.json",
+            "data/muls/clusters/O2/cluster_109.json",
+            "data/muls/clusters/O3/cluster_200.json"
+        ],
+        "constant": "1 - 2 ** const_0",
+        "operand": "reg_2",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "mov reg_2, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_2, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O0/cluster_13.json"
+        ],
+        "constant": "-1 * (const_0 + 1) + 2",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "lea reg_2, [reg_1*const_0]",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O0/cluster_14.json"
+        ],
+        "constant": "-1 * (const_0 + 1) +2",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "lea reg_2, [reg_3*const_0]",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_106.json",
+            "data/muls/clusters/O3/cluster_197.json"
+        ],
+        "constant": "-(2 ** (const_0+1)) -2",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_129.json",
+            "data/muls/clusters/O3/cluster_220.json"
+        ],
+        "constant": "-(2 ** (const_0) + 1) * 2 ** const_0",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_170.json",
+            "data/muls/clusters/O3/cluster_261.json"
+        ],
+        "constant": "-(2 ** (const_0) + 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "neg reg_0",
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_146.json",
+            "data/muls/clusters/O3/cluster_237.json"
+        ],
+        "constant": "-(2 ** (const_0) - 1) * 2 ** const_1",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/muls/clusters/O2/cluster_188.json",
+            "data/muls/clusters/O3/cluster_279.json"
+        ],
+        "constant": "-(2 ** (const_0+1) - 2)",
+        "operand": "reg_0",
+        "pattern": [
+            "shl reg_0, const_0",
+            "sub reg_0, loc0",
+            "neg reg_0",
+            "add reg_0, reg_0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_13.json",
+            "data/muls/clusters/O0/cluster_15.json"
+        ],
+        "constant": "-2 ** (const_0) - 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "mov loc0, reg_0",
+            "neg loc0"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_17.json",
+            "data/muls/clusters/O0/cluster_19.json"
+        ],
+        "constant": "3 * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_2*const_0]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_18.json",
+            "data/muls/clusters/O0/cluster_20.json"
+        ],
+        "constant": "3 * (const_0 + 1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_0*const_0]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_20.json",
+            "data/muls/clusters/O0/cluster_22.json"
+        ],
+        "constant": "(2 ** (const_0) + 1) * 2 + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_22.json",
+            "data/muls/clusters/O0/cluster_24.json"
+        ],
+        "constant": "(2 ** (const_0) + 1) * 2 ** (const_0) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_25.json",
+            "data/muls/clusters/O0/cluster_27.json"
+        ],
+        "constant": "(2 ** (const_0)) * (const_1 + 2) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_2*const_1]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_26.json",
+            "data/muls/clusters/O0/cluster_28.json"
+        ],
+        "constant": "(2 ** (const_0)) * (const_1 + 2) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "lea reg_1, [reg_0*const_1]",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_27.json",
+            "data/muls/clusters/O0/cluster_29.json"
+        ],
+        "constant": "(2 ** (const_0) + 1) * 2 ** (const_1) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_1",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_28.json",
+            "data/muls/clusters/O0/cluster_5.json"
+        ],
+        "constant": "-1 * (2 ** (const_0)) + 1",
+        "operand": "reg_1",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_1, const_0",
+            "mov reg_2, reg_1",
+            "mov reg_1, reg_0",
+            "sub reg_1, reg_2"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O0/cluster_31.json",
+            "data/muls/clusters/O0/cluster_33.json"
+        ],
+        "constant": "3 * 2 ** (const_0) + 1",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "add reg_0, reg_0",
+            "add reg_0, reg_1",
+            "shl reg_0, const_0",
+            "add reg_0, reg_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_62.json",
+            "data/mulu/clusters/O2/cluster_133.json",
+            "data/mulu/clusters/O3/cluster_212.json",
+            "data/muls/clusters/O1/cluster_66.json",
+            "data/muls/clusters/O2/cluster_144.json",
+            "data/muls/clusters/O3/cluster_235.json"
+        ],
+        "constant": "-(2 ** (const_0 ) - 1) * 2 ** (const_1)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1",
+            "shl reg_0, const_1"
+        ]
+    },
+    {
+        "clusters": [
+            "data/mulu/clusters/O1/cluster_88.json",
+            "data/mulu/clusters/O2/cluster_164.json",
+            "data/mulu/clusters/O3/cluster_243.json",
+            "data/muls/clusters/O1/cluster_90.json",
+            "data/muls/clusters/O2/cluster_175.json",
+            "data/muls/clusters/O3/cluster_266.json"
+        ],
+        "constant": "-(2 ** (const_0 ) - 1) * 2 ** (const_0)",
+        "operand": "reg_0",
+        "pattern": [
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0",
+            "sub reg_1, reg_0",
+            "mov reg_0, reg_1",
+            "shl reg_0, const_0"
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+{
+  "pattern": [
+    {
+      "opcode": "movsx",
+      "operands": [
+        "reg_0",
+        "reg_1"
+      ],
+      "text": "movsx reg_0, reg_1"
+    },
+    {
+      "opcode": "imul",
+      "operands": [
+        "reg_0",
+        "reg_0",
+        "const_0"
+      ],
+      "text": "imul reg_0, reg_0, const_0"
+    },
+    {
+      "opcode": "shr",
+      "operands": [
+        "reg_0",
+        "const_1"
+      ],
+      "text": "shr reg_0, const_1"
+    },
+    {
+      "opcode": "sar",
+      "operands": [
+        "reg_2",
+        "const_2"
+      ],
+      "text": "sar reg_2, const_2"
+    },
+    {
+      "opcode": "sar",
+      "operands": [
+        "reg_1",
+        "const_3"
+      ],
+      "text": "sar reg_1, const_3"
+    },
+    {
+      "opcode": "sub",
+      "operands": [
+        "reg_2",
+        "reg_1"
+      ],
+      "text": "sub reg_2, reg_1"
+    },
+    {
+      "opcode": "mov",
+      "operands": [
+        "reg_1",
+        "reg_2"
+      ],
+      "text": "mov reg_1, reg_2"
+    }
+  ]
+}

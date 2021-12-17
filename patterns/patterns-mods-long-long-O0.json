@@ -1,0 +1,8522 @@
+[
+ {
+  "sequence": [
+   {
+    "opcode": "cqo",
+    "operands": [],
+    "text": "cqo"
+   },
+   {
+    "opcode": "shr",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "shr reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_2",
+     "const_1"
+    ],
+    "text": "and reg_2, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "15"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "10"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "60"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "45"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "29"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "19"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "44"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "34"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "18"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "58"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "12"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "20"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "71"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_0",
+     "const_3"
+    ],
+    "text": "shl reg_0, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "24"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "9"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "70"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "61"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "47"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "mov reg_0, loc0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_1"
+    ],
+    "text": "push const_1"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "push reg_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "push reg_1"
+   },
+   {
+    "opcode": "call",
+    "operands": [
+     "__moddi3"
+    ],
+    "text": "call __moddi3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "const_3"
+    ],
+    "text": "add reg_3, const_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc1",
+     "reg_1"
+    ],
+    "text": "mov loc1, reg_1"
+   }
+  ],
+  "cluster": "2"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_0",
+     "const_3"
+    ],
+    "text": "shl reg_0, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "25"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "mov reg_0, loc0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "sar reg_2, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_4"
+    ],
+    "text": "mov reg_3, reg_4"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_3",
+     "reg_1"
+    ],
+    "text": "xor reg_3, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc1",
+     "reg_3"
+    ],
+    "text": "mov loc1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "reg_0"
+    ],
+    "text": "mov reg_4, reg_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_4",
+     "reg_2"
+    ],
+    "text": "xor reg_4, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc2",
+     "reg_4"
+    ],
+    "text": "mov loc2, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc1"
+    ],
+    "text": "mov reg_4, loc1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc2"
+    ],
+    "text": "mov reg_0, loc2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_4",
+     "reg_1"
+    ],
+    "text": "sub reg_4, reg_1"
+   },
+   {
+    "opcode": "sbb",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "sbb reg_0, reg_2"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_4",
+     "const_1"
+    ],
+    "text": "and reg_4, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc3",
+     "reg_4"
+    ],
+    "text": "mov loc3, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc4",
+     "const_2"
+    ],
+    "text": "mov loc4, const_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc3"
+    ],
+    "text": "mov reg_4, loc3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc4"
+    ],
+    "text": "mov reg_0, loc4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_5",
+     "reg_4"
+    ],
+    "text": "mov reg_5, reg_4"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_5",
+     "reg_1"
+    ],
+    "text": "xor reg_5, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc5",
+     "reg_5"
+    ],
+    "text": "mov loc5, reg_5"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "reg_0"
+    ],
+    "text": "mov reg_4, reg_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_4",
+     "reg_2"
+    ],
+    "text": "xor reg_4, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc6",
+     "reg_4"
+    ],
+    "text": "mov loc6, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc5"
+    ],
+    "text": "mov reg_4, loc5"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc6"
+    ],
+    "text": "mov reg_0, loc6"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_4",
+     "reg_1"
+    ],
+    "text": "sub reg_4, reg_1"
+   },
+   {
+    "opcode": "sbb",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "sbb reg_0, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc7",
+     "reg_4"
+    ],
+    "text": "mov loc7, reg_4"
+   }
+  ],
+  "cluster": "23"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "xor reg_0, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   }
+  ],
+  "cluster": "35"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "sar reg_0, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0",
+     "reg_1",
+     "const_3"
+    ],
+    "text": "imul reg_0, reg_1, const_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "7"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_0",
+     "const_4"
+    ],
+    "text": "shl reg_0, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "46"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "16"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_1]"
+    ],
+    "text": "lea reg_0, [reg_1*const_1]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "39"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "56"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "mov reg_0, const_0"
+   },
+   {
+    "opcode": "idiv",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "idiv reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_3"
+    ],
+    "text": "mov reg_2, reg_3"
+   }
+  ],
+  "cluster": "8"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_0",
+     "const_2"
+    ],
+    "text": "sar reg_0, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0",
+     "reg_1",
+     "const_3"
+    ],
+    "text": "imul reg_0, reg_1, const_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "11"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "32"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "52"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_0",
+     "const_4"
+    ],
+    "text": "shl reg_0, const_4"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "57"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "26"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "68"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "67"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "6"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_1"
+    ],
+    "text": "sar reg_3, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0",
+     "reg_1",
+     "const_2"
+    ],
+    "text": "imul reg_0, reg_1, const_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "66"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "mov reg_0, loc0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "sar reg_1, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "mov reg_2, reg_1"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_2",
+     "const_0"
+    ],
+    "text": "sar reg_2, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_4"
+    ],
+    "text": "mov reg_3, reg_4"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_3",
+     "reg_1"
+    ],
+    "text": "xor reg_3, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc1",
+     "reg_3"
+    ],
+    "text": "mov loc1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "reg_0"
+    ],
+    "text": "mov reg_4, reg_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_4",
+     "reg_2"
+    ],
+    "text": "xor reg_4, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc2",
+     "reg_4"
+    ],
+    "text": "mov loc2, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc1"
+    ],
+    "text": "mov reg_4, loc1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc2"
+    ],
+    "text": "mov reg_0, loc2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_4",
+     "reg_1"
+    ],
+    "text": "sub reg_4, reg_1"
+   },
+   {
+    "opcode": "sbb",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "sbb reg_0, reg_2"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_4",
+     "const_0"
+    ],
+    "text": "and reg_4, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc3",
+     "reg_4"
+    ],
+    "text": "mov loc3, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc4",
+     "const_1"
+    ],
+    "text": "mov loc4, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc3"
+    ],
+    "text": "mov reg_4, loc3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc4"
+    ],
+    "text": "mov reg_0, loc4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_5",
+     "reg_4"
+    ],
+    "text": "mov reg_5, reg_4"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_5",
+     "reg_1"
+    ],
+    "text": "xor reg_5, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc5",
+     "reg_5"
+    ],
+    "text": "mov loc5, reg_5"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "reg_0"
+    ],
+    "text": "mov reg_4, reg_0"
+   },
+   {
+    "opcode": "xor",
+    "operands": [
+     "reg_4",
+     "reg_2"
+    ],
+    "text": "xor reg_4, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc6",
+     "reg_4"
+    ],
+    "text": "mov loc6, reg_4"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_4",
+     "loc5"
+    ],
+    "text": "mov reg_4, loc5"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc6"
+    ],
+    "text": "mov reg_0, loc6"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_4",
+     "reg_1"
+    ],
+    "text": "sub reg_4, reg_1"
+   },
+   {
+    "opcode": "sbb",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "sbb reg_0, reg_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc7",
+     "reg_4"
+    ],
+    "text": "mov loc7, reg_4"
+   }
+  ],
+  "cluster": "14"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "17"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "27"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "74"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "37"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "5"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "36"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_1]"
+    ],
+    "text": "lea reg_0, [reg_1*const_1]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "76"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "77"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "38"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "21"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "59"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "50"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "22"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "30"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "75"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_2"
+    ],
+    "text": "shl reg_1, const_2"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "73"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "28"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "loc0"
+    ],
+    "text": "mov reg_0, loc0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_0"
+    ],
+    "text": "push const_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "const_1"
+    ],
+    "text": "push const_1"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "push reg_0"
+   },
+   {
+    "opcode": "push",
+    "operands": [
+     "reg_1"
+    ],
+    "text": "push reg_1"
+   },
+   {
+    "opcode": "call",
+    "operands": [
+     "__moddi3"
+    ],
+    "text": "call __moddi3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "add reg_3, const_2"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "loc1",
+     "reg_1"
+    ],
+    "text": "mov loc1, reg_1"
+   }
+  ],
+  "cluster": "49"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "33"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_4"
+    ],
+    "text": "shl reg_1, const_4"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "31"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_2]"
+    ],
+    "text": "lea reg_0, [reg_1*const_2]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "53"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_4]"
+    ],
+    "text": "lea reg_0, [reg_1*const_4]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "69"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "sub reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_2]"
+    ],
+    "text": "lea reg_0, [reg_1*const_2]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "55"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_4]"
+    ],
+    "text": "lea reg_0, [reg_1*const_4]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "4"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "cdq",
+    "operands": [],
+    "text": "cdq"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "and reg_0, const_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "and",
+    "operands": [
+     "reg_1",
+     "const_0"
+    ],
+    "text": "and reg_1, const_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   }
+  ],
+  "cluster": "13"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "72"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "54"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_0",
+     "[reg_1*const_4]"
+    ],
+    "text": "lea reg_0, [reg_1*const_4]"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "48"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_3"
+    ],
+    "text": "shl reg_1, const_3"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "51"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "lea",
+    "operands": [
+     "reg_1",
+     "[reg_0+reg_2]"
+    ],
+    "text": "lea reg_1, [reg_0+reg_2]"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "sub reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "3"
+ },
+ {
+  "sequence": [
+   {
+    "opcode": "movabs",
+    "operands": [
+     "reg_0",
+     "const_0"
+    ],
+    "text": "movabs reg_0, const_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_2"
+    ],
+    "text": "mov reg_1, reg_2"
+   },
+   {
+    "opcode": "imul",
+    "operands": [
+     "reg_0"
+    ],
+    "text": "imul reg_0"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "sar reg_1, const_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_3",
+     "reg_2"
+    ],
+    "text": "mov reg_3, reg_2"
+   },
+   {
+    "opcode": "sar",
+    "operands": [
+     "reg_3",
+     "const_2"
+    ],
+    "text": "sar reg_3, const_2"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_1",
+     "reg_3"
+    ],
+    "text": "sub reg_1, reg_3"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_1"
+    ],
+    "text": "mov reg_0, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "mov reg_1, reg_0"
+   },
+   {
+    "opcode": "shl",
+    "operands": [
+     "reg_1",
+     "const_1"
+    ],
+    "text": "shl reg_1, const_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_1"
+    ],
+    "text": "add reg_1, reg_1"
+   },
+   {
+    "opcode": "add",
+    "operands": [
+     "reg_1",
+     "reg_0"
+    ],
+    "text": "add reg_1, reg_0"
+   },
+   {
+    "opcode": "sub",
+    "operands": [
+     "reg_2",
+     "reg_1"
+    ],
+    "text": "sub reg_2, reg_1"
+   },
+   {
+    "opcode": "mov",
+    "operands": [
+     "reg_0",
+     "reg_2"
+    ],
+    "text": "mov reg_0, reg_2"
+   }
+  ],
+  "cluster": "43"
+ }
+]
