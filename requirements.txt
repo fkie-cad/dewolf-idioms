@@ -1,5 +1,5 @@
 pytest
-smda==1.5.19
+smda
 lief
 requests
 tqdm
