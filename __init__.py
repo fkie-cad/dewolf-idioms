@@ -50,8 +50,8 @@ def main(binary_view):
     if len(sys.argv) == 3:
         filename = sys.argv[2]
     # ic(sorted(matches, key=lambda x: x.constant if x.constant else 0))
-    for m in sorted(matches, key=lambda x: x.constant if x.constant else 0):
-        print(m)
+    # for m in sorted(matches, key=lambda x: x.constant if x.constant else 0):
+        # print(m)
         # for i in range(m.address, m.address+len(m.sequence)):
         #     set_tag(binary_view, tag_name=f'compiler_idiom: {m.operation}', address=i, text=f'{m.operand},{m.constant}')
         # set_tag(tag_name=f'compiler_idiom: {m.operation}', address=instr.address,
