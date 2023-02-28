@@ -38,6 +38,10 @@ tests = [
 include-package-data = true
 
 
+[tool.setuptools.package-data]
+myModule = ["patterns/*"]
+
+
 [tool.setuptools.packages.find]
 where = ["."]
 
