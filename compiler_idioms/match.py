@@ -11,6 +11,7 @@ class Match:
     operand: str = ""
     constant: int = 0
     sequence: List[str] = list
+    addresses: List[int] = list
 
     def __str__(self):
         op = {

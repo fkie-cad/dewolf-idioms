@@ -1,12 +1,11 @@
 import ctypes
 import json
-import math
 import pathlib
 from typing import Dict, Tuple
 
-from config import ROOT
+from compiler_idioms.config import ROOT
 
-MAGIC_PATH = ROOT / "compiler_idioms" / "idiom" / "utils" / "magic_map_long.json"
+MAGIC_PATH = ROOT / "idiom" / "utils" / "magic_map_long.json"
 
 DEFAULT_POWER = 64
 MAX_SIGNED_INT = 2 ** 63 - 1

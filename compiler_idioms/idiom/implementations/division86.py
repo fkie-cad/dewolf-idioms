@@ -1,13 +1,12 @@
 import ctypes
-import json
 from typing import Dict, List
 
 from compiler_idioms.idiom.instruction_sequence import InstructionSequence
 from compiler_idioms.idiom.utils.magic import compute_magic_numbers_if_not_exists
 from compiler_idioms.idiom.utils.pattern_utils import load_pattern_sequences_for_operation
-from compiler_idioms.instruction import Instruction, from_anonymized_pattern
+from compiler_idioms.instruction import Instruction
 from compiler_idioms.match import Match
-from config import ROOT
+from compiler_idioms.config import ROOT
 from icecream import ic
 
 PATTERN_DIR = ROOT / "patterns"

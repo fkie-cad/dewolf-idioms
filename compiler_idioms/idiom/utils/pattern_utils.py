@@ -1,7 +1,7 @@
 import json
 
 from compiler_idioms.instruction import from_anonymized_pattern
-from config import ROOT
+from compiler_idioms.config import ROOT
 
 PATTERN_DIR = ROOT / "patterns"
 

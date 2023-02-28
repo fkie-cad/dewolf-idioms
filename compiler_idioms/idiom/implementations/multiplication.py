@@ -10,8 +10,8 @@ logger.setLevel(level=logging.ERROR)
 from compiler_idioms.idiom.instruction_sequence import InstructionSequence
 from compiler_idioms.instruction import Instruction
 from compiler_idioms.match import Match
-from config import PATTERNS_DIR
-from safe_eval import safe_eval
+from compiler_idioms.config import PATTERNS_DIR
+from compiler_idioms.safe_eval import safe_eval
 
 TEST_PATTERN_PATH = PATTERNS_DIR / "patterns-mul.yaml"
 

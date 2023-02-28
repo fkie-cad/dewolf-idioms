@@ -1,10 +1,6 @@
 import json
 import pathlib
 import sys
-from collections import defaultdict
-from typing import DefaultDict, List, Tuple
-
-from binaryninja import Tag, TagType
 from compiler_idioms.matcher import Matcher
 from icecream import ic
 
