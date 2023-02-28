@@ -1,6 +1,56 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "compiler-idioms"
+version = "0.0.1"
+authors = [
+    { name = "Fraunhofer FKIE", email = "dewolf@fkie.fraunhofer.de" }
+]
+description = "Matches compiler idioms in a given binary file"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "pytest",
+    "smda",
+    "lief",
+    "requests",
+    "tqdm",
+    "pyyaml",
+    "icecream"
+]
+
+
+[project.optional-dependencies]
+tests = [
+    "pylint",
+    "pytest",
+]
+
+
+[tools.setuptools]
+include-package-data = true
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = "tests"
+
+
 [tool.black]
 line-length = 140
 target-version = ['py38']
+
 
 [tool.isort]
 profile = "black"

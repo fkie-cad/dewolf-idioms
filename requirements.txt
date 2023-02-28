@@ -1,7 +1,0 @@
-pytest
-smda
-lief
-requests
-tqdm
-pyyaml
-icecream
