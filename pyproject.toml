@@ -39,7 +39,7 @@ include-package-data = true
 
 
 [tool.setuptools.package-data]
-myModule = ["patterns/*"]
+compiler_idioms = ["patterns/*"]
 
 
 [tool.setuptools.packages.find]
