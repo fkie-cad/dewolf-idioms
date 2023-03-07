@@ -6,7 +6,6 @@ from typing import Dict, Tuple
 from compiler_idioms.config import ROOT
 
 MAGIC_PATH = ROOT / "idiom" / "utils" / "magic_map.json"
-print("AHHAHHHH")
 
 DEFAULT_POWER = 32
 MAX_SIGNED_INT = 2 ** 31 - 1

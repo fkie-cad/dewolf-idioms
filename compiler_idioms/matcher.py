@@ -31,25 +31,37 @@ class Matcher:
         matches = []
         disassembly = SMDADisassembly(file_path, buffer=buffer)
         for function in disassembly.next_disassembly_function():
-            for i, instruction in enumerate(function):
-                for idiom in self.idioms:
-                    if instruction.matched:  # jump over matched instructions
-                        continue
-                    anonymized_first_instruction = anonymize_instruction(instruction)
+            function_matches = self._match_single_function(function)
+            matches.extend(function_matches)
+        return matches
 
-                    if idiom.matches_first_instruction(anonymized_first_instruction):
-                        anonymized_first_instructions, orig_constants, orig_registers = anonymize_instructions_smda(
-                            function[i:])
-                        if match := idiom.search(anonymized_first_instructions, orig_constants, orig_registers):
-                            if not match:
-                                continue
-                            self._mark_instructions_as_matched(
-                                function[i: i + match.length]
-                            )  # +1? mark matched instructions to not to search for other idioms there
-                            # yield match
-                            for instr in function[i: i + match.length]:
-                                match.addresses.append(instr.address)
-                            matches.append(match)
+    def find_idioms_in_function(self, file_path: str = "", function_start=-1) -> List[Match]:
+        """ """
+        disassembly = SMDADisassembly(file_path, buffer=None)
+        function = disassembly.get_smda_function_at(function_start)
+        matches = self._match_single_function(function)
+        return matches
+
+    def _match_single_function(self, function):
+        matches = []
+        for i, instruction in enumerate(function):
+            for idiom in self.idioms:
+                if instruction.matched:  # jump over matched instructions
+                    continue
+                anonymized_first_instruction = anonymize_instruction(instruction)
+                if idiom.matches_first_instruction(anonymized_first_instruction):
+                    anonymized_first_instructions, orig_constants, orig_registers = anonymize_instructions_smda(
+                        function[i:])
+                    if match := idiom.search(anonymized_first_instructions, orig_constants, orig_registers):
+                        if not match:
+                            continue
+                        self._mark_instructions_as_matched(
+                            function[i: i + match.length]
+                        )  # +1? mark matched instructions to not to search for other idioms there
+                        # yield match
+                        for instr in function[i: i + match.length]:
+                            match.addresses.append(instr.address)
+                        matches.append(match)
         return matches
 
     @staticmethod
