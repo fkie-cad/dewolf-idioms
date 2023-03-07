@@ -96,7 +96,6 @@ def _load_magic_map(path: pathlib.Path):
 
 def compute_magic_numbers_if_not_exists(max_divisor=DEFAULT_MAX_DIVISOR):
     if max_divisor > DEFAULT_MAX_DIVISOR or not MAGIC_PATH.exists():
-        print(f"Computes magic map from {2} to {max_divisor}")
         magic_map = _compute_magic_map(max_divisor)
         _dump_magic_map(magic_map, MAGIC_PATH)
         return magic_map
