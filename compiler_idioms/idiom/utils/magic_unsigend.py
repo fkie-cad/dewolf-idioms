@@ -2,9 +2,9 @@ import json
 import pathlib
 from typing import Dict, Tuple
 
-from config import ROOT
+from compiler_idioms.config import ROOT
 
-MAGIC_PATH = ROOT / "compiler_idioms" / "idiom" / "utils" / "unsigned_magic_map.json"
+MAGIC_PATH = ROOT / "idiom" / "utils" / "unsigned_magic_map.json"
 
 DEFAULT_POWER = 32
 MAX_SIGNED_INT = 2 ** 32 - 1
@@ -18,7 +18,6 @@ def _compute_magic_map2(max_divisor: int) -> Dict[Tuple[int, int], int]:
     We omit divisors that are powers of two since magic is not used for them.
     :return:
     """
-    print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
     _map = {}
     for divisor in range(2, max_divisor):
         if (divisor & (divisor - 1)) != 0:

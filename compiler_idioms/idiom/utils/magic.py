@@ -3,9 +3,9 @@ import json
 import pathlib
 from typing import Dict, Tuple
 
-from config import ROOT
+from compiler_idioms.config import ROOT
 
-MAGIC_PATH = ROOT / "compiler_idioms" / "idiom" / "utils" / "magic_map.json"
+MAGIC_PATH = ROOT / "idiom" / "utils" / "magic_map.json"
 
 DEFAULT_POWER = 32
 MAX_SIGNED_INT = 2 ** 31 - 1

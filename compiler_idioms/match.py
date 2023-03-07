@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from operator import attrgetter
 from typing import List
 
@@ -11,6 +11,7 @@ class Match:
     operand: str = ""
     constant: int = 0
     sequence: List[str] = list
+    addresses: List[int] = field(default_factory=lambda: [])
 
     def __str__(self):
         op = {

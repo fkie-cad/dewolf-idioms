@@ -2,7 +2,7 @@ import json
 import pathlib
 from typing import Dict, List
 
-from config import DATA_DIR
+from compiler_idioms.config import DATA_DIR
 
 
 def get_operation_dirs() -> List[pathlib.Path]:

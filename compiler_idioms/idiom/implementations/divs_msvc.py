@@ -5,9 +5,8 @@ from compiler_idioms.idiom.instruction_sequence import InstructionSequence
 from compiler_idioms.idiom.utils.magic import compute_magic_numbers_if_not_exists
 from compiler_idioms.idiom.utils.magic_long import compute_magic_numbers_if_not_exists as compute_magic_long
 from compiler_idioms.idiom.utils.pattern_utils import load_pattern_sequences_for_operation
-from compiler_idioms.instruction import Instruction, from_anonymized_pattern
+from compiler_idioms.instruction import Instruction
 from compiler_idioms.match import Match
-from config import ROOT
 
 HEX_BASE = 16
 # ic.disable()

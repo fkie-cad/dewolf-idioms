@@ -64,10 +64,26 @@ class SMDADisassembly(Disassembly):
                 )
             yield assembly_lines
 
-        with pathlib.Path("diassembly.json").open("w") as f:
-            json.dump(self.disassembly.toDict(), f, indent=4)
+        # with pathlib.Path("disassembly.json").open("w") as f:
+        #     json.dump(self.disassembly.toDict(), f, indent=4)
 
         self.disassembly.toDict()
+
+    def get_smda_function_at(self, address):
+        """Normalize smda function by removing jump target locations and spaces in indirect memory accesses"""
+        smda_function = self.disassembly.getFunction(address)
+        assembly_lines = []
+        for smda_instruction in smda_function.getInstructions():
+            operands = [self._remove_spaces_in_indirect_memory_operands(op) for op in
+                        smda_instruction.operands.split(",")]
+            if smda_instruction.mnemonic in {"jns", "js", "jmp", "je", "jne", "ja", "jb", "jae", "jbe", "jge", "jle"}:
+                operands = []
+            assembly_lines.append(
+                Instruction(smda_instruction.offset, self._get_mnemonic_smda(smda_instruction.mnemonic),
+                            tuple(operands), matched=False)
+            )
+        return assembly_lines
+
 
     @staticmethod
     def _remove_spaces_in_indirect_memory_operands(operand: str) -> str:

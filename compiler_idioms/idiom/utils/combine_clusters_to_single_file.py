@@ -3,7 +3,7 @@ import pathlib
 import sys
 from typing import List, Tuple
 
-from config import DATA_DIR, TEST_DIR
+from compiler_idioms.config import DATA_DIR, TEST_DIR
 
 
 def _read_parsed_pattern_from_cluster_file(cluster_file_path: pathlib.Path) -> Tuple[List, str]:

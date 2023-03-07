@@ -3,6 +3,7 @@ import os
 import pathlib
 
 ROOT = pathlib.Path(__file__).absolute().parent
+print(ROOT)
 DATA_DIR = ROOT / "data"
 # TEST_DIR = ROOT / "test_samples"
 TEST_DIR = ROOT / "tests"
@@ -22,7 +23,7 @@ API_COLLECTION_FILES = {
 
 ### global logging-config setup
 # Only do basicConfig if no handlers have been configured
-LOG_PATH = "./"
+LOG_PATH = "../"
 LOG_LEVEL = logging.INFO
 LOG_FORMAT = "%(asctime)-15s: %(name)-32s - %(message)s"
 if len(logging._handlerList) == 0:

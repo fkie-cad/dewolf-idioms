@@ -1,6 +1,5 @@
 from compiler_idioms.matcher import Matcher
-from config import TEST_DIR
-from icecream import ic
+from compiler_idioms.config import TEST_DIR
 
 DIVS_TEST_FILE = TEST_DIR / "divs-10-binary"
 DIVS_DATABASE = TEST_DIR / "divs-10-binary.bndb"
