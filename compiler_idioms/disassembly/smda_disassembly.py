@@ -82,7 +82,7 @@ class SMDADisassembly(Disassembly):
                 Instruction(smda_instruction.offset, self._get_mnemonic_smda(smda_instruction.mnemonic),
                             tuple(operands), matched=False)
             )
-        yield assembly_lines
+        return assembly_lines
 
 
     @staticmethod
